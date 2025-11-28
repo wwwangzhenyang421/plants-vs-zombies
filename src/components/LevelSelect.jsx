@@ -2,8 +2,8 @@ import useImage from '../hooks/useImage'
 import { Image, Group, Text, Rect } from 'react-konva'
 
 function LevelSelect({ onSelectLevel, onBack }) {
-  const [bgImage] = useImage('/images/out_put-EXT2/titlescreen.jpg')
-  const [buttonImage] = useImage('/images/out_put-EXT2/options_backtogamebutton0.png')
+  const [bgImage] = useImage('/images/applied/cover.jpg')
+  const [buttonImage] = useImage('/images/applied/botton.png')
 
   const width = 900
   const height = 600
